@@ -1,0 +1,29 @@
+# 运行时产生的文件
+bili_dl_config.json
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ffmpeg 二进制过大，不纳入版本控制
+# 请自行下载并放到 ffmpeg/ffmpeg.exe
+ffmpeg/
+ffmpeg.zip
+
+# 下载产物
+downloads/
+*.part
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
