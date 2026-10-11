@@ -27,3 +27,9 @@ downloads/
 .idea/
 Thumbs.db
 desktop.ini
+
+# WorkBuddy 工作区数据（本地记忆、临时文件，不属于项目内容）
+.workbuddy/
+
+# 注意：根目录的 B站视频下载器.exe 是**有意提交**的预编译版本，
+# 方便直接从仓库下载使用，因此不在此处忽略。
